@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript and Data Visualization</title>
+		<link rel="stylesheet" type="text/css" href="css/app.css">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<img src="images/banner.jpg" alt="Banner Image" class="center">
+		<br><br>
+		<h2>Table 1: Are Women Participating More or Less than Males?</h2>
+		<canvas id="lineChart"></canvas>
+		<p>The line chart above shows that both genders’ participations in Olympics are instantly growing from 1924 to 2014. It is clearly evident that the participation of women players in Olympics has significantly improved over the years.</p>
+		<p>For women, the number of participation tends to increase smoothly and gradually at the start. Then there is a change point in 1964, where women’s number of participation has an obvious rise. After 1994, the number of women who participated in the Olympics increases sharply.</p>
+		<p>For men, the upward trend tends to be more unsteady compared to women. There are several obvious drops at the first 40 years in 1928, 1936 and 1960. After 1960, the number of men that participated in the Olympics has shown a gradual ascending tendency.</p>
+		<p>Overall, the total participations in Olympics of men are much greater than that of women from 1924 to 2014. There is an obvious rapid rise in women’s participation after 1988, since the difference between men’s and women’s participation is gradually decreasing after 1988, which means that there is a rise of the social status and standings of modern women.</p>
+		<p>Therefore, we will plot the number of participation in some specific sport for each gender over the years in order to check which sport contributes to the increasing participation of women.</p>
+		<hr />
+
+		<h2>Table 2: Which Sport that Women Participating more Compared with Males?</h2>
+		<canvas id="barChart"></canvas>
+		<p>This bar chart shows that the contrast of each gender’s total participation in a specific sport in Olympics from 1924 to 2014. Overall, in all categories of sports, men have higher total participation than women over the years. From the chart it is clear that the majority of women players are willing to participate in the winter sports, such as skiing, skating and ice hockey. Also, the difference of male players and female players are relatively small in the sports, which are biathlon, curling and skating. From the chart we can see that in these three kinds of sports, number of women players almost reaches the same number of men players.</p>
+		<p>In conclusion, women are more willing to participate in the winter sports compared to other sports.</p>
+		<hr />
+
+		<h2>Table 3: Which Medal is Won the Most by Women?</h2>
+		<canvas id="pieChart"></canvas>
+		<p>The pie chart above shows the results of the sum over females’ medals amount from 1924 to 2014 all over the world. Obviously, there are three kinds of medals in Olympics: gold, silver, bronze.</p>
+		<p>It is clear that the number of each kind of medals won by women is equally distributed. Over the years women won gold and silver the most with the number slightly greater than the number of bronze.</p>
+		<p>In conclusion, females’ strength to win the medals is uniform. In future, we can probably expect a steadily increasing trend and uniform distribution of the number of each kind of medals won by women.</p>
+		<hr />
+
+		<h2>Table 4: Are Women Competing and Winning More or Less?</h2>
+		<canvas id="scatterChart"></canvas>
+		<p>The scatter plot above shows the trend of both men and women in winning the gold medal from 1924 to 2014 all over the world. It is clear that the number of both men and women in winning the gold medal is increasing over the years. Both males and females winning pattern seem like a concave up increasing pattern. Also, another noticeable pattern is that number of males in winning gold medal is still greater than that of females in winning gold medal. Women’s number of gold medal has a remarkable significant rise in 1998, and the differences between women and men in winning gold medal are greatly reduced in later years.</p>
+		<p>To conclude, both men and women have an upward trend in winning the gold medal, and the differences between the winning records of both genders are gradually decreased by women. In future, we can probably expect that women’s winning records exceed men’s winning records.</p>
+
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
