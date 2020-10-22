@@ -1,24 +1,25 @@
-# hw3
-MIT License
+# Data Analysis
+For this assignment, I am intending to prove How does Women Compete with Men
+all over the world The visualizations that I use to reinforce the story are listing in the description.
 
-Copyright (c) 2020 Shan-Li Wang
+## Description 
+- Are women participating more or less than males?
+- Which sport that women participating more compared with males?
+- Which m ed al is won the most by women?
+- Are women competing and winning more or less?
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The dataset for a ll three questions is already provided by the instructor in the class content.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Built With
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
- 
- 
+HTML CSS JavaScript
+
+## Authors
+
+* **Shan-Li Wang** - (https://github.com/kimberly332)
+
+
+### License
+
+Copyright © 2020, [Shan-Li Wang](https://github.com/kimberly332).
+Released under the MIT License.
